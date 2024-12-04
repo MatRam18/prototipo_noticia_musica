@@ -1,0 +1,40 @@
+body{
+    background-color: #857c7c8c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    box-shadow: 1px 1 px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    height: 650px;
+    width: auto;
+    margin: auto;
+    padding-top: 40px;
+}
+.card {
+    margin-bottom: 20px;
+    height: 600px;
+}
+.card-img-top {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: 250px; /* Define a altura da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+}
+.card-body {
+    padding-top: 15px;
+}
+.card-title {
+    font-size: 1.5rem; /* Tamanho do título */
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1rem; /* Tamanho do texto */
+}
+.card-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+.card-footer .btn {
+    margin-right: 10px;
+}
